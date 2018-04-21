@@ -13,8 +13,8 @@ COIN_PORT=5005
 NODEIP=$(curl -s4 icanhazip.com)
 
 
-RED='\e[93m'
-GREEN='\e[932'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
 NC='\033[0m'
 
 
