@@ -2,8 +2,8 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='demos.conf'
-CONFIGFOLDER='/root/.demos'
-COIN_DAEMON='/root/demosd'
+COIN_DAEMON='/usr/local/bin/demosd'
+COIN_CLI='/usr/local/bin/demos-cli'
 COIN_CLI='/root/demos-cli'
 COIN_REPO='https://github.com/DemosPay/DemosPay/releases/download/v1.0/linux-binaries.tar.gz'
 COIN_NAME='DEMOS'
