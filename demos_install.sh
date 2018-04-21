@@ -2,6 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='demos.conf'
+CONFIGFOLDER='/root/.demos'
 COIN_DAEMON='/usr/local/bin/demosd'
 COIN_CLI='/usr/local/bin/demos-cli'
 COIN_CLI='/root/demos-cli'
