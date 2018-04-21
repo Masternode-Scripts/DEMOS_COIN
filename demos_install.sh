@@ -6,20 +6,21 @@ CONFIGFOLDER='/root/.demos'
 COIN_DAEMON='/root/demosd'
 COIN_CLI='/root/demos-cli'
 COIN_REPO='https://github.com/DemosPay/DemosPay/releases/download/v1.0/linux-binaries.tar.gz'
-COIN_NAME='DEMOS-PAY'
+COIN_NAME='DEMOS'
 COIN_PORT=5005
 
 
 NODEIP=$(curl -s4 icanhazip.com)
 
 
-RED='\033[0;31m'
-GREEN='\033[0;32m'
+RED='\e[93m'
+GREEN='\e[932'
 NC='\033[0m'
 
 
 function compile_node() {
-  echo -e "Prepare to download $COIN_NAME"
+  echo -e "THIS SCRIPT IS CREATED BY UDAYDEEP - Discord Name : Linux-Master : ID : #0974"
+  echo -e "Preparing to download $COIN_NAME"
   cd $TMP_FOLDER
   wget -q $COIN_REPO
   compile_error
@@ -228,7 +229,7 @@ fi
 
 
 function checks() {
- detect_ubuntu 
+ detect_ubuntu
 if [[ $EUID -ne 0 ]]; then
    echo -e "${RED}$0 must be run as root.${NC}"
    exit 1
@@ -304,7 +305,7 @@ function setup_node() {
     configure_systemd
   else
     configure_startup
-  fi    
+  fi
 }
 
 
