@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.demos'
 COIN_DAEMON='/root/demosd'
 COIN_CLI='/root/demos-cli'
 COIN_REPO='https://github.com/DemosPay/DemosPay/releases/download/v1.0/linux-binaries.tar.gz'
-COIN_NAME='DEMOS PAY'
+COIN_NAME='DEMOS-PAY'
 COIN_PORT=5005
 
 
